@@ -4,7 +4,7 @@
 #
 #   include tiny_alarm
 class tiny_alarm {
-  package { 'Tiny Alarm':
+  package { 'TinyAlarm':
     provider => 'compressed_app',
     source   => 'https://plumamazing.com/bin/tinyalarm/tinyalarm.zip',
   }
